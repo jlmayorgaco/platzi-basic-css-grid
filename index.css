@@ -1,0 +1,19 @@
+
+/* ----------------------------------------------------------- */
+/* --- PLATZI THEME ------------------------------------------ */
+/* ----------------------------------------------------------- */
+.platzi {
+    --color-background: #0c1633; 
+    --color-primary: #c1df8b;
+    --color-secondary: #00B1B1;
+    --color-accent: #FF4081; 
+    --color-text: #FFFFFF;
+    --color-border: #c1df8b;
+    --color-success: #4CAF50;
+}
+/* ----------------------------------------------------------- */
+
+
+.header{}
+.header__title{}
+.header__logo{}
