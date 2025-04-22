@@ -1,19 +1,53 @@
 
+:root{
+    --logo-width: 100px;
+    --logo-height: 100px;
+}
+
+
 /* ----------------------------------------------------------- */
 /* --- PLATZI THEME ------------------------------------------ */
 /* ----------------------------------------------------------- */
-.platzi {
-    --color-background: #0c1633; 
-    --color-primary: #c1df8b;
-    --color-secondary: #00B1B1;
-    --color-accent: #FF4081; 
-    --color-text: #FFFFFF;
-    --color-border: #c1df8b;
-    --color-success: #4CAF50;
-}
+    .platzi {
+        --color-background: #0c1633; 
+        --color-primary: #c1df8b;
+        --color-secondary: #00B1B1;
+        --color-accent: #FF4081; 
+        --color-text: #FFFFFF;
+        --color-border: #c1df8b;
+        --color-success: #4CAF50;
+    }
 /* ----------------------------------------------------------- */
 
 
-.header{}
-.header__title{}
-.header__logo{}
+/* ----------------------------------------------------------- */
+/* --- Header ------------------------------------------------ */
+/* ----------------------------------------------------------- */
+    .header{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: start;
+    }
+    .header__logo{
+        display: block;
+        width: var(--logo-width);
+        height: var(--logo-height);
+    }
+    .header__title{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: start;
+    }
+    .header__title h1{
+        font-size: 2rem;
+        color: var(--color-primary);
+        margin: 0;
+    }
+    .header__title h2{
+        font-size: 1.5rem;
+        color: var(--color-primary);
+        margin: 0;
+    }
+/* ----------------------------------------------------------- */
