@@ -119,10 +119,12 @@ ul{
 /* --- Grid -------------------------------------------------- */
 /* ----------------------------------------------------------- */
 .grid{
+
     display: grid;
 
     grid-template-columns: 100px 200px 300px;
     grid-auto-rows: 100px;
+
 }
 .grid__item{
     color: white;
